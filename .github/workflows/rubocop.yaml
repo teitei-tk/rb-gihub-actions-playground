@@ -21,5 +21,3 @@ jobs:
       - name: Run rubocop
         run: ./scripts/rubocop.sh
         shell: bash
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
